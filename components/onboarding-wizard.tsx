@@ -76,15 +76,15 @@ export function OnboardingWizard() {
             BrandPilot
           </div>
           <div className="mt-20 max-w-sm">
-            <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
+            <p className="font-mono text-[0.8rem] uppercase tracking-[0.3em] text-muted-foreground">
               Your brand, understood
             </p>
             <h2 className="mt-5 text-4xl font-semibold leading-[1.08] tracking-tight xl:text-5xl">
               Make every piece of content sound like you.
             </h2>
             <p className="mt-6 max-w-xs text-sm leading-6 text-muted-foreground">
-              A few quick steps, and BrandPilot will understand your business
-              well enough to generate content in your actual voice.
+              Build a brand that feels clear, consistent, and unmistakably
+              yours.
             </p>
           </div>
           <div className="mt-20 flex items-center gap-3 text-xs text-muted-foreground">
@@ -107,7 +107,7 @@ export function OnboardingWizard() {
                   <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-accent text-accent-foreground shadow-soft">
                     <Sparkles className="h-5 w-5" />
                   </div>
-                  <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
+                  <p className="font-mono text-[0.8rem] uppercase tracking-[0.3em] text-muted-foreground mt-2.5">
                     Get started
                   </p>
                   <h1 className="mt-4 text-3xl font-semibold tracking-tight">
