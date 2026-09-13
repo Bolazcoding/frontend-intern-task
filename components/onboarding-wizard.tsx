@@ -70,7 +70,7 @@ export function OnboardingWizard() {
       <div className="relative mx-auto grid w-full max-w-6xl items-center gap-10 lg:grid-cols-[minmax(260px,0.75fr)_minmax(460px,1fr)] lg:gap-20">
         <aside className="hidden lg:block">
           <div className="flex items-center gap-2 text-sm font-semibold tracking-tight">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
+            <span className="relative flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground after:absolute after:-right-1 after:-top-1 after:size-2 after:rounded-full after:bg-accent">
               B
             </span>
             BrandPilot
@@ -104,6 +104,14 @@ export function OnboardingWizard() {
                 transition={{ duration: 0.45 }}
               >
                 <SpotlightCard className="p-7 text-center sm:p-10">
+                  <div
+                    className="mx-auto mb-5 flex w-fit items-center gap-1.5"
+                    aria-hidden
+                  >
+                    <span className="h-1.5 w-8 rounded-full bg-accent" />
+                    <span className="h-1.5 w-1.5 rounded-full bg-accent/50" />
+                    <span className="h-1.5 w-1.5 rounded-full bg-accent/30" />
+                  </div>
                   <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-accent text-accent-foreground shadow-soft">
                     <Sparkles className="h-5 w-5" />
                   </div>

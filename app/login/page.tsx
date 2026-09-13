@@ -12,7 +12,7 @@ export default function LoginPage() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="w-full max-w-sm rounded-2xl border border-border/70 bg-card/80 p-6 shadow-lift backdrop-blur-sm sm:p-8"
+        className="relative w-full max-w-sm rounded-2xl border border-border/70 bg-card/80 p-6 shadow-lift backdrop-blur-sm before:absolute before:inset-x-8 before:top-0 before:h-0.5 before:bg-accent sm:p-8"
       >
         {/* Back button */}
         <Link
@@ -29,7 +29,7 @@ export default function LoginPage() {
             href="/"
             className="inline-flex items-center gap-2.5 rounded-xl border border-border/70 bg-background/70 px-3 py-2"
           >
-            <span className="flex size-8 items-center justify-center rounded-lg bg-primary text-xs font-semibold text-primary-foreground">
+            <span className="relative flex size-8 items-center justify-center rounded-lg bg-primary text-xs font-semibold text-primary-foreground after:absolute after:-right-1 after:-top-1 after:size-2 after:rounded-full after:bg-accent">
               BP
             </span>
             <span className="text-sm font-medium">BrandPilot</span>
