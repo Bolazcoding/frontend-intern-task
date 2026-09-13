@@ -1,50 +1,46 @@
-# Frontend Intern Task – BrandPilot UI
+# BrandPilot Frontend Intern Task
 
-Welcome! This is a practical task for the Frontend Intern role.
+This is my submission for the **BrandPilot Frontend Intern Task**.
 
-## Goal
+The task was to improve the existing onboarding, login, and registration pages while keeping the original functionality and mock data.
 
-Your job is to **redesign and improve** the following screens:
+## What I worked on
 
-1. **Onboarding flow** (`/`)
-2. **Login page** (`/login`)
-3. **Register page** (`/register`)
+- Redesigned the onboarding experience
+- Improved the login and registration pages
+- Added better spacing, typography, colors, and layout
+- Added hover states and smooth transitions
+- Improved the overall user experience
+- Made the pages responsive for both desktop and mobile
 
-Focus on:
-- Better visual design and layout
-- Improved spacing, typography, and hierarchy
-- Excellent mobile responsiveness
-- Smoother transitions and micro-interactions
-- Overall polish and user experience
+I mainly focused on making the interface feel cleaner, more modern, and easier to use without changing how the existing functionality works.
 
-You do **not** need to connect to any real backend. Everything currently works with mock data.
+## Built With
 
-## How to run the project
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+## Live Demo
+
+[https://adelabu-intern-task.vercel.app/](https://adelabu-intern-task.vercel.app/)
+
+## Video Walkthrough
+
+I also recorded a short walkthrough explaining the changes I made and some of the design decisions.
+
+[**Watch the walkthrough**](https://www.loom.com/share/6e404b75abce4835b6deaf89669b2669)
+
+## Pages
+
+- `/` — Onboarding
+- `/login` — Login
+- `/register` — Registration
+
+## Run Locally
 
 ```bash
 npm install
 npm run dev
-
-Then open http://localhost:3000
-Pages you should improve
-
-RouteDescription
-
-/Onboarding Wizard
-/loginLogin page
-/registerRegistration page
-
-
-Submission
-
-Create your own GitHub repository
-Push your improved version
-Send me the repository link
-
-Optional but recommended:
-
-Record a short Loom video (2–3 minutes) explaining your design decisions
-
-Deadline
-Please submit within 2 days.
-Good luck!
+```
