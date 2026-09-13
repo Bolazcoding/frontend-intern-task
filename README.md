@@ -30,7 +30,7 @@ I mainly focused on making the interface feel cleaner, more modern, and easier t
 
 I also recorded a short walkthrough explaining the changes I made and some of the design decisions.
 
-[**Watch the walkthrough**](https://www.loom.com/share/6e404b75abce4835b6deaf89669b2669)
+[**Watch the walkthrough**](https://www.loom.com/share/c88baa52275842ffbc0986032ec61b27)
 
 ## Pages
 
