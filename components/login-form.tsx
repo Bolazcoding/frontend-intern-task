@@ -69,7 +69,10 @@ export function LoginForm() {
             <label htmlFor="password" className="text-sm font-medium">
               Password
             </label>
-            <button type="button" className="text-xs text-muted-foreground hover:text-foreground">
+            <button
+              type="button"
+              className="text-xs text-muted-foreground hover:text-foreground"
+            >
               Forgot password?
             </button>
           </div>
@@ -87,9 +90,13 @@ export function LoginForm() {
             <button
               type="button"
               onClick={() => setShowPassword(!showPassword)}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground"
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground cursor-pointer"
             >
-              {showPassword ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
+              {showPassword ? (
+                <EyeOff className="h-4 w-4" />
+              ) : (
+                <Eye className="h-4 w-4" />
+              )}
             </button>
           </div>
         </div>
@@ -113,7 +120,7 @@ export function LoginForm() {
         <button
           type="submit"
           disabled={isLoading}
-          className="flex h-11 w-full items-center justify-center gap-2 rounded-xl bg-foreground text-sm font-medium text-background transition hover:opacity-90 disabled:opacity-60"
+          className="flex h-11 w-full items-center justify-center gap-2 rounded-xl bg-foreground text-sm font-medium text-background transition hover:opacity-90 disabled:opacity-60 cursor-pointer"
         >
           {isLoading ? (
             <>
@@ -132,14 +139,16 @@ export function LoginForm() {
       {/* Divider */}
       <div className="flex items-center gap-3">
         <div className="h-px flex-1 bg-border" />
-        <span className="text-[10px] uppercase tracking-wider text-muted-foreground">or</span>
+        <span className="text-[10px] uppercase tracking-wider text-muted-foreground">
+          or
+        </span>
         <div className="h-px flex-1 bg-border" />
       </div>
 
       {/* Google */}
       <button
         type="button"
-        className="flex h-11 w-full items-center justify-center gap-2 rounded-xl border border-border text-sm font-medium transition hover:bg-secondary"
+        className="flex h-11 w-full items-center justify-center gap-2 rounded-xl border border-border text-sm font-medium transition hover:bg-secondar cursor-pointer"
       >
         <Globe className="h-4 w-4" />
         Continue with Google

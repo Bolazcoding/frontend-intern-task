@@ -166,7 +166,7 @@ export function OnboardingWizard() {
                       setPath("website");
                       setStep("website-input");
                     }}
-                    className="text-left"
+                    className="text-left cursor-pointer"
                   >
                     <SpotlightCard className="h-full p-5 transition hover:-translate-y-1 sm:p-6">
                       <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-accent text-accent-foreground">
@@ -185,7 +185,7 @@ export function OnboardingWizard() {
                       setPath("no-website");
                       setStep("preferences-input");
                     }}
-                    className="text-left"
+                    className="text-left cursor-pointer"
                   >
                     <SpotlightCard className="h-full p-5 transition hover:-translate-y-1 sm:p-6">
                       <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-secondary text-foreground">
